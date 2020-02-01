@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0.75rem 0;
+}
+
+/*Utility Classes*/
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.m-heading{
+    color:#0292B7;
+}
+.l-heading{
+    color: #34CCE4;
+}
+.btn-dark{
+    background-color: #0292B7;
+    color:#fff;
+    border-radius: 10px;
+    padding: 20px 100px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+/*Section : contact*/
+.contact{
+    margin-top: 25%;
+    padding: 10%;
+}
+
+.form-group{
+    margin: 20px;
+    border-bottom: #34CCE4;    
+}
+
