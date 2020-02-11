@@ -1,0 +1,29 @@
+/* smart phones */
+@media (max-width: 500px){
+    #contact-form .container{ 
+        display: block;
+        height: 50vh;
+        width: 25vw;
+        margin: 10rem;
+    }
+ #contact-form .img {
+        display: none;
+    }
+    #welcome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        height: 100px;
+        margin: 5rem;
+    }
+   
+/* #welcome{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    margin: 5rem;
+} */
+}

@@ -7,44 +7,92 @@
     padding: 0;
 }
 
+
 body{
     font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    font-size: medium;
 }
 
 p{
+    color: #34CCE4;
     margin: 0.75rem 0;
+    padding: 0 40px;
+    font-weight: bold;
 }
 
-/*Utility Classes*/
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.m-heading{
+h1{
     color:#0292B7;
+    padding: 0 40px;
 }
-.l-heading{
-    color: #34CCE4;
+
+button{
+    margin: 0 7rem;
 }
+
 .btn-dark{
     background-color: #0292B7;
     color:#fff;
-    border-radius: 10px;
+    border-radius: 2rem;
     padding: 20px 100px;
     margin-top: 20px;
     cursor: pointer;
 }
 
-
-
-/*Section : contact*/
-.contact{
-    margin-top: 25%;
-    padding: 10%;
+ #contact-form .container {
+    display: flex;
+    flex: 1;
 }
 
-.form-group{
-    margin: 20px;
-    border-bottom: #34CCE4;    
+.img {
+    background: url('../img/xeen\ img.png') no-repeat center center/cover;
+    height: 100vh;
+    width: 50vw;
+
 }
 
+#welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    margin: 20rem;
+}
+
+#welcome .welcome-image{
+    margin-top: 15rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+
+#welcome .welcome-form h1{
+    margin: auto 7rem;
+}
+
+#welcome .welcome-form .center{
+    margin: 0 8rem;
+}
+
+#welcome .welcome-form .center-text{
+    margin: 0 5rem;
+}
+
+#welcome .welcome-form .form-group{
+    margin: 20px 50px;
+    padding: 10px;
+    box-shadow: none;
+    border-bottom: #34CCE4 solid 3px;
+    width:400px;
+    }
+
+#welcome .welcome-form .form-group ::placeholder{
+    outline: none;
+    color: #34CCE4;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+#welcome .welcome-form .footer{
+    margin: 1rem 8rem;
+}
